@@ -49,8 +49,8 @@ export default function Chart() {
 
   return (
     <div className="bg-white rounded-lg">
-      <div className="grid grid-cols-4 divide-x-2">
-        <div className="col-span-3 p-6">
+      <div className="grid lg:grid-cols-4 lg:divide-x-2">
+        <div className="lg:col-span-3 p-6">
           <Line options={options} data={data} />
         </div>
         <div className="grid-grid-rows-5 divide-y-2">

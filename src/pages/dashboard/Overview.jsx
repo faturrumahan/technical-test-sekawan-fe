@@ -25,7 +25,7 @@ export default function Overview() {
         <p className="font-bold text-xl">Overview</p>
         <div>{authData.name}</div>
       </div>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <TopCard
           title="Unresolved"
           number="60"
@@ -54,7 +54,7 @@ export default function Overview() {
       <div className="mt-5">
         <Chart />
       </div>
-      <div className="mt-5 grid grid-cols-2 gap-4">
+      <div className="mt-5 grid lg:grid-cols-2 gap-4">
         <UnresolvedTicket />
         <Tasks />
       </div>

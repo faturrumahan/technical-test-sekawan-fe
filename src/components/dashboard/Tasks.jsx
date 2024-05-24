@@ -10,7 +10,7 @@ export default function Tasks() {
         </div>
         <div className="text-blue-500">View details</div>
       </div>
-      <div className="grid grid-rows-4 divide-y-2">
+      <div className="grid grid-rows-4 divide-y-2 max-lg:text-sm">
         <div className="flex flex-1 justify-between p-6">
           <p className="text-gray-400">Create new task</p>
           <div className="p-2 bg-gray-200 rounded-xl">
